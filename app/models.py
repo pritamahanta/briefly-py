@@ -11,6 +11,7 @@ class Article(BaseModel):
     published_at: datetime | None = None
     hn_score: int = 0
     score: float = 0.0
+    summary: str = ""
 
 
 class SelectedStory(BaseModel):
