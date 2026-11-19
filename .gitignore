@@ -4,4 +4,5 @@ __pycache__/
 .env
 .env.local
 .pytest_cache/
-
+.DS_Store
+*.log
